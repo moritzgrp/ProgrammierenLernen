@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -22,5 +24,6 @@ public class Main {
 
         Topping top2 = new Sucuk(5);
         System.out.println(top.anzahl);
+        System.out.println("hehe");
     }
 }
